@@ -1,0 +1,45 @@
+﻿*{
+    padding:0;
+    margin:0;
+  
+  }
+  body{
+    border: solid red;
+    width:98vw;
+    height:98vh;
+   
+  }
+  .container{
+  
+    border: solid black;
+    width: 100%;
+    height:100%;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:0px;
+    
+    
+    justify-items: center;
+    align-items: center;    
+    
+
+    
+  }
+
+  
+  .it{
+    border: solid black;
+    background: yellow;
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .a{
+   /* align-self: start;*/
+  }
